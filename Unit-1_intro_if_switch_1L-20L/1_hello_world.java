@@ -5,6 +5,7 @@ class intro{
         System.out.println("Hello World! Welcome to my amazing world of JAVA");
     }
 }
+
 /*
 copiling java code using terminal : 
 javac file_name.java
