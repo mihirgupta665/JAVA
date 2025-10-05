@@ -5,7 +5,7 @@ public class NextMeetingDay {
         SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY;
 
         public static Day getNextDay(Day day) {
-            return values()[(day.ordinal() + 1) % values().length];     //Note: values() has parenthesis and length has no parenthesis
+            return values()[(day.ordinal() + 1) % values().length];     //Note: values() has parenthesis and length has no parenthesis unllike strings
         }
     }
 
